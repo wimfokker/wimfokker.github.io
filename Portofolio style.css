@@ -1,27 +1,102 @@
 body {
-  background-color: rgb(0, 0, 0);
-  margin: 0;
+  margin: 0%;
+  background: #000;
+}
+
+h2{
+  color: #ffffff;
+  font-family: 'Roboto Mono';
+}
+
+h3{
+  color: white;
+  font-family: 'Roboto Mono';
 }
 
 header {
   width: 100%;
   padding: 10px 0;
+  background-color: rgb(30, 30, 30);
 }
 
 .name {
-display: flex;
-justify-content: flex-start;
-color: aqua;
-font-family: 'Montserrat';
-text-shadow: 0px 0px 9px aqua;
+  display: flex;
+  justify-content: flex-start;
+  color: aqua;
+  text-decoration: none;
+  text-shadow: 0px 0px 9px aqua;
+  margin: 25px;
 }
 
-label {
-  color: white;
+.name a {
+  display: flex;
+  justify-content: flex-start;
+  color: aqua;
+  text-decoration: none;
+  text-shadow: 0px 0px 9px aqua;
   font-family: 'Montserrat';
 }
 
-h1 {
+.navbar {
+  display: flex;
+  justify-content: center;
+  color: white; 
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.navbar a {
+  color: white;              
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.intro-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+  background-color: #333;
+  padding: 20px 25px;
+  border: 3px solid aqua;
+  border-radius: 10px;
   color: white;
   font-family: 'Montserrat';
+  margin-top: 250px;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: stretch;
+}
+
+.email-img{
+  width: 9vh;
+  height: 6%;
 }
