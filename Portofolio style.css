@@ -118,7 +118,7 @@ header {
 
 .boxes{
   display: flex;
-	justify-content: space-around;
+	gap: 50px;
 	align-items: flex-start;
 }
 
