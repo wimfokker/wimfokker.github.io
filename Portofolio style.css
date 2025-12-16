@@ -3,12 +3,12 @@ body {
   background: #000;
 }
 
-h2{
+h2 {
   color: #ffffff;
   font-family: 'Roboto Mono';
 }
 
-h3{
+h3 {
   color: white;
   font-family: 'Roboto Mono';
 }
@@ -52,7 +52,7 @@ header {
   font-size: 18px;
 }
 
-.navbar a:hover {
+.navbar :hover {
   color: aqua;
 }
 
@@ -87,6 +87,16 @@ header {
   margin-top: 250px;
 }
 
+.opening {
+  display: flex;
+  margin-bottom: 250px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: aqua;
+}
+
 .footer-container{
 	display: flex;
 	flex-direction: row;
@@ -99,4 +109,23 @@ header {
 .email-img{
   width: 9vh;
   height: 6%;
+}
+
+.about-opening{
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.boxes{
+  display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.info-box {
+  border: 3px solid #2efcff;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 480px;
+  background-color: #333;
 }
