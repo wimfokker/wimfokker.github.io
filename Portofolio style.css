@@ -40,13 +40,13 @@ header {
 .navbar {
   display: flex;
   justify-content: center;
-  color: white; 
+  color: white;
   text-decoration: none;
   font-family: 'Montserrat';
 }
 
 .navbar a {
-  color: white;              
+  color: white;
   text-decoration: none;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -61,23 +61,24 @@ header {
   margin: 0;
   padding: 0;
 }
+
 .navbar ul li {
   display: inline;
   margin: 0 15px;
 }
 
-.intro-container{
+.intro-container {
   display: flex;
   justify-content: space-evenly;
 }
 
 .left-box {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
   background-color: #333;
   padding: 20px 25px;
   border: 3px solid aqua;
@@ -97,29 +98,29 @@ header {
   color: aqua;
 }
 
-.footer-container{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: flex-end;
-	align-content: stretch;
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: stretch;
 }
 
-.email-img{
+.email-img {
   width: 9vh;
   height: 6%;
 }
 
-.about-opening{
+.about-opening {
   margin-top: 150px;
   margin-left: 100px;
 }
 
-.boxes{
+.boxes {
   display: flex;
   justify-content: space-around;
-	gap: 50px;
+  gap: 50px;
   margin-top: 200px;
 }
 
@@ -134,15 +135,15 @@ header {
   font-family: 'Roboto Mono';
 }
 
-.languages-opening{
+.languages-opening {
   display: flex;
   margin-left: 100px;
 }
 
 .computer-languages {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 100px;
 }
 
@@ -153,11 +154,11 @@ header {
 
 .computer-languages h2 {
   display: flex;
-	justify-content: space-around;
-	align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.projects-opening{
+.projects-opening {
   display: flex;
   margin-top: 150px;
   margin-left: 100px;
@@ -187,6 +188,7 @@ header {
   border-radius: 14px;
   padding: 20px;
   color: white;
+  font-family: 'Roboto Mono';
 }
 
 .card img {
@@ -204,13 +206,25 @@ header {
 
 @media (max-width: 900px) {
   .projects {
- grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .projects {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .Contact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .Contact {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -221,9 +235,12 @@ header {
 }
 
 .contact {
+  margin-left: auto;
+  margin-right: 120px;
+  margin-top: 80px;
   width: 520px;
   background-color: #333;
-  border: 3px solid aqua;
+  border: 2px solid aqua;
   border-radius: 14px;
   padding: 30px;
   font-family: 'Roboto Mono';
@@ -253,17 +270,6 @@ header {
   border: none;
   border-radius: 8px;
   padding: 10px;
+  color: white;
   font-family: 'Roboto Mono';
-}
-
-.submit-button {
-  background-color: aqua;
-  color: black;
-  border: none;
-  padding: 10px 24px;
-  border-radius: 10px;
-  font-family: 'Roboto Mono';
-  font-weight: bold;
-  cursor: pointer;
-  align-self: flex-end;
 }
