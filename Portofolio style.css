@@ -264,12 +264,34 @@ header {
   font-family: 'Roboto Mono';
 }
 
-.input-group input,
-.input-group textarea {
+.input-group input {
   background-color: #1e1e1e;
   border: none;
   border-radius: 8px;
   padding: 10px;
   color: white;
   font-family: 'Roboto Mono';
+}
+
+.input-group textarea {
+  background-color: #1e1e1e;
+  border: none;
+  height: 160px;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-family: 'Roboto Mono';
+}
+
+.submit-button {
+  margin-top: 20px;
+  margin-left: auto;
+  display: block;
+  background-color: aqua;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-family: 'Roboto Mono';
+  cursor: pointer;
 }
