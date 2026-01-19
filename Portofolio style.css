@@ -212,7 +212,7 @@ header {
 }
 
 
-/* Mobile screens */
+/* Mobile screens media */
 @media (max-width: 600px) {
   .navbar ul li {
     display: block;
@@ -342,7 +342,6 @@ header {
   background-color: aqua;
   border: none;
   border-radius: 8px;
-  padding: 0, 24;
   font-family: 'Roboto Mono';
   font-weight: bold;
   color: black;
