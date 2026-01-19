@@ -25,7 +25,8 @@ header {
   color: aqua;
   text-decoration: none;
   text-shadow: 0px 0px 9px aqua;
-  margin: 25px;
+  margin: 15px 25px;
+  font-size: 24px;
 }
 
 .name a {
@@ -43,6 +44,8 @@ header {
   color: white;
   text-decoration: none;
   font-family: 'Montserrat';
+  flex-wrap: wrap;
+  padding: 0 15px 15px 15px;
 }
 
 .navbar a {
@@ -77,7 +80,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 250px;
-  gap: 150px;
+  gap: 50px;
 }
 
 .left-box {
@@ -115,15 +118,17 @@ header {
 .footer-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   align-content: stretch;
+  padding: 30px 20px;
+  gap: 20px;
 }
 
 .email-img {
-  width: 9vh;
-  height: 6%;
+  width: 50px;
+  height: 50px;
 }
 
 .about-opening {
@@ -221,9 +226,28 @@ header {
 
 /* Mobile screens media */
 @media (max-width: 600px) {
+  header {
+    padding: 10px 0;
+  }
+
+  .name {
+    margin: 10px 15px;
+    font-size: 18px;
+  }
+
+  .navbar {
+    justify-content: center;
+    padding: 0 10px 10px 10px;
+  }
+
   .navbar ul li {
-    display: block;
-    margin: 10px 0;
+    display: inline;
+    margin: 5px 8px;
+    font-size: 14px;
+  }
+
+  .navbar a {
+    font-size: 14px;
   }
 
   .left-box {
@@ -272,9 +296,14 @@ header {
 
   .contact {
     width: 90%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     padding: 20px;
+  }
+
+  .contact-opening {
+    margin-top: 30px;
   }
 
   .input-row {
@@ -284,6 +313,42 @@ header {
 
   .card h3 {
     font-size: 16px;
+  }
+
+  .intro {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+  }
+
+  .right-box {
+    width: 100%;
+  }
+
+  .opening-image img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+
+  .mail {
+    text-align: center;
+    width: 100%;
+  }
+
+  .email-img {
+    width: 40px;
+    height: 40px;
   }
 }
 
