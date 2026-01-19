@@ -311,6 +311,12 @@ header {
     gap: 0;
   }
 
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .card h3 {
     font-size: 16px;
   }
@@ -363,6 +369,8 @@ header {
   margin-right: 120px;
   margin-top: 80px;
   width: 520px;
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: #333;
   border: 2px solid aqua;
   border-radius: 14px;
