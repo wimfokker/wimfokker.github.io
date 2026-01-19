@@ -88,6 +88,13 @@ header {
   margin-top: 250px;
 }
 
+.opening-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
 .opening {
   display: flex;
   margin-bottom: 250px;
@@ -133,6 +140,7 @@ header {
   height: 300px;
   color: white;
   font-family: 'Roboto Mono';
+  font-size: 100%;
 }
 
 .languages-opening {
@@ -204,27 +212,71 @@ header {
 }
 
 
-@media (max-width: 900px) {
-  .projects {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
+/* Mobile screens */
 @media (max-width: 600px) {
+  .navbar ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .left-box {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
   .projects {
     grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
   }
-}
 
-@media (max-width: 900px) {
-  .Contact {
-    grid-template-columns: repeat(2, 1fr);
+  .about-opening {
+    margin-left: 20px;
   }
-}
 
-@media (max-width: 600px) {
-  .Contact {
-    grid-template-columns: 1fr;
+  .projects-opening {
+    margin-left: 20px;
+  }
+
+  .contact-opening {
+    margin-left: 20px;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .info-box {
+    width: 90%;
+    height: auto;
+  }
+
+  .computer-languages {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .card h3 {
+    font-size: 16px;
   }
 }
 
