@@ -3,11 +3,13 @@ body {
   background: #000;
 }
 
+/* Algemene stijl voor de standaart H2 voor mijn portfolio.*/
 h2 {
   color: #ffffff;
   font-family: 'Roboto Mono';
 }
 
+/* Algemene stijl voor de standaart H3 portfolio.*/
 h3 {
   color: white;
   font-family: 'Roboto Mono';
@@ -224,7 +226,7 @@ header {
 }
 
 
-/* Mobile screens media */
+/* responive voor mobiele telefoons op de prtfolio.*/
 @media (max-width: 600px) {
   header {
     padding: 10px 0;
