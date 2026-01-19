@@ -354,3 +354,7 @@ header {
   color: black;
   cursor: pointer;
 }
+
+.submit-button:hover {
+  background-color: #00ffff;
+}
